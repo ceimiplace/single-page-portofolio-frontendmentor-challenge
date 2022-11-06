@@ -7,11 +7,20 @@ export default function Header() {
         <img src="" alt="logo" />
         <button>Free Consultation</button>
       </div>
-      <h2> Design solutions made easy</h2>
-      <p>
-        With over ten years of experience in various design disciplines, I’m
-        your one-stop shop for your design needs.
-      </p>
+      <div
+        style={{
+          textAlign: "center",
+          maxWidth: "750px",
+          marginInline: "auto",
+          padding: "30px",
+        }}
+      >
+        <h2 className="headingL"> Design solutions made easy</h2>
+        <p className="bodyM">
+          With over ten years of experience in various design disciplines, I’m
+          your one-stop shop for your design needs.
+        </p>
+      </div>
       <GridContainer />
     </div>
   );
