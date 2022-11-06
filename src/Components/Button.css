@@ -1,0 +1,25 @@
+.black-button {
+  background-color: black;
+  color: white;
+}
+.black-button:active {
+  background-color: #755cde;
+}
+.text-btn {
+  padding-inline: 27px;
+  padding-block: 8px;
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 28px;
+  border-radius: 28px;
+  outline: none;
+  border: none;
+}
+@media screen and (min-width: 768px) {
+  .text-btn {
+    padding-inline: 45px;
+    padding-block: 14px;
+  }
+}

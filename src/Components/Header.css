@@ -1,0 +1,35 @@
+.top-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  width: 48px;
+}
+.presentation-container {
+  max-width: 752px;
+  text-align: center;
+  margin-inline: auto;
+}
+.presentation-header-text {
+  font-family: "Plus Jakarta Sans";
+
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 45px;
+}
+@media screen and (min-width: 768px) {
+  .presentation-header-text {
+    font-size: 44px;
+    line-height: 55px;
+  }
+  .logo {
+    width: 64px;
+  }
+}
+@media screen and (min-width: 1108px) {
+  .presentation-header-text {
+    font-size: 56px;
+    line-height: 71px;
+  }
+}

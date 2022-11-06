@@ -28,6 +28,11 @@ body {
   font-style: normal;
   font-weight: 500;
   font-size: 18px;
-  line-height: 28px;
+  line-height: 26px;
   color: #7a746e;
+}
+body {
+  padding: 15px;
+  max-width: 1110px;
+  margin-inline: auto;
 }
