@@ -1,3 +1,4 @@
+import "./CardGrid.css";
 export default function CardGrid({ src, background, text }) {
   return (
     <div className="card-grid" style={{ backgroundColor: { background } }}>
