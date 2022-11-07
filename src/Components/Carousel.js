@@ -33,7 +33,7 @@ export default function Carousel() {
         ))}
       </section>
       <button
-        onClick={() => setLocation(location === 1 ? length : location - 1)}
+        onClick={() => setLocation(location === 0 ? length - 1 : location - 1)}
       >
         Previous
       </button>
