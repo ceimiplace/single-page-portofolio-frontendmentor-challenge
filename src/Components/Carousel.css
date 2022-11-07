@@ -1,0 +1,44 @@
+.image {
+  position: absolute;
+  width: 270px;
+  transition: all 0.5s;
+}
+.hidden {
+  opacity: 0;
+}
+.current {
+  opacity: 1;
+  transform: translateX(0);
+}
+.next {
+  opacity: 1;
+  transform: translateX(300px);
+}
+.previous {
+  opacity: 1;
+  transform: translateX(-300px);
+}
+.carousel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  flex-wrap: nowrap;
+  position: relative;
+
+  height: 180px;
+}
+@media screen and (min-width: 768px) {
+  .image {
+    width: 540px;
+  }
+  .carousel {
+    height: 360px;
+  }
+  .next {
+    transform: translateX(600px);
+  }
+  .previous {
+    transform: translateX(-600px);
+  }
+}
