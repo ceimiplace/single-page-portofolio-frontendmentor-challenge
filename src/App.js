@@ -1,8 +1,9 @@
 import "./App.css";
-import Button from "./Components/Button";
+
 import Header from "./Components/Header";
 import LogoButtonSection from "./Components/LogoButtonSection";
 import Main from "./Components/Main";
+import Footer from "./Footer";
 
 function App() {
   return (
@@ -10,7 +11,7 @@ function App() {
       <LogoButtonSection />
       <Header />
       <Main />
-      <footer></footer>
+      <Footer />
       <LogoButtonSection />
     </div>
   );
