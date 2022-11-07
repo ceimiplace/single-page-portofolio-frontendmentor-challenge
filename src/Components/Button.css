@@ -11,6 +11,10 @@
 .orange-button:active {
   background-color: #f6a560;
 }
+.arrow-button {
+  padding: 24px;
+  border-radius: 50%;
+}
 .text-btn {
   padding-inline: 27px;
   padding-block: 8px;

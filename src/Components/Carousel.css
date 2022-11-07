@@ -3,6 +3,10 @@
   width: 270px;
   transition: all 0.5s;
 }
+.container-carousel {
+  text-align: center;
+  margin-top: 100px;
+}
 .hidden {
   opacity: 0;
 }
@@ -19,6 +23,7 @@
   transform: translateX(-300px);
 }
 .carousel {
+  margin-block: 32px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -27,6 +32,12 @@
   position: relative;
 
   height: 180px;
+}
+
+.arrow-container {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
 }
 @media screen and (min-width: 768px) {
   .image {
