@@ -1,13 +1,15 @@
 import "./App.css";
+import Button from "./Components/Button";
 import Header from "./Components/Header";
 import LogoButtonSection from "./Components/LogoButtonSection";
+import Main from "./Components/Main";
 
 function App() {
   return (
     <div className="App">
       <LogoButtonSection />
       <Header />
-      <main></main>
+      <Main />
       <footer></footer>
       <LogoButtonSection />
     </div>

@@ -5,6 +5,12 @@
 .black-button:active {
   background-color: #755cde;
 }
+.orange-button {
+  background-color: #eb7565;
+}
+.orange-button:active {
+  background-color: #f6a560;
+}
 .text-btn {
   padding-inline: 27px;
   padding-block: 8px;
@@ -14,6 +20,7 @@
   font-size: 16px;
   line-height: 28px;
   border-radius: 28px;
+  color: white;
   outline: none;
   border: none;
 }
