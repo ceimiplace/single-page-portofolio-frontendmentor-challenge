@@ -1,11 +1,3 @@
-.top-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-.logo {
-  width: 48px;
-}
 .presentation-container {
   max-width: 752px;
   text-align: center;

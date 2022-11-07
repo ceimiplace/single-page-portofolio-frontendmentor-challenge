@@ -1,10 +1,15 @@
 import "./App.css";
 import Header from "./Components/Header";
+import LogoButtonSection from "./Components/LogoButtonSection";
 
 function App() {
   return (
     <div className="App">
+      <LogoButtonSection />
       <Header />
+      <main></main>
+      <footer></footer>
+      <LogoButtonSection />
     </div>
   );
 }

@@ -5,7 +5,10 @@
   grid-auto-rows: 180px;
   gap: 24px;
   margin-inline: auto;
+
+  padding: 0;
 }
+
 .graphic {
   grid-column: 1/3;
   grid-row: 1/3;

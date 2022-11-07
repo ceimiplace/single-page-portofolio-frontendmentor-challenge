@@ -8,7 +8,7 @@ import photography from "../images/pattern-photography.svg";
 import motiongraphics from "../images/pattern-motion-graphics.svg";
 export default function GridContainer() {
   return (
-    <div className="grid-container">
+    <ul className="grid-container">
       <CardGrid
         text="Graphic Design"
         background="#755CDE"
@@ -35,6 +35,6 @@ export default function GridContainer() {
         background="#552049"
         classy={"motion"}
       />
-    </div>
+    </ul>
   );
 }

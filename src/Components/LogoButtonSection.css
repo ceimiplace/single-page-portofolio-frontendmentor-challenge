@@ -1,0 +1,13 @@
+.section-container-logo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  width: 48px;
+}
+@media screen and (min-width: 768px) {
+  .logo {
+    width: 64px;
+  }
+}
