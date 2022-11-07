@@ -1,6 +1,7 @@
 import Button from "./Button";
 import "./Main.css";
 import hero from "../images/image-amy.webp";
+import Carousel from "./Carousel";
 export default function Main() {
   return (
     <main className="main-container">
@@ -22,6 +23,7 @@ export default function Main() {
           </Button>
         </article>
       </section>
+      <Carousel />
     </main>
   );
 }
